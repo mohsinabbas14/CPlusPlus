@@ -16,9 +16,9 @@ int add(int a, int b) // passing to a function by value
 void increaseByOne(int *a, int *b) 
 {
 // Modify so that the function adds one to each value (a -> a+1, b -> b+1)
-	(*a)++;
+	++*a;
 	
-	(*b)++;
+	++*b;
 }
 
 void swap(int &a, int &b)
